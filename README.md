@@ -1,5 +1,8 @@
 # Suger Cane Client
 
+**IMPORTANT : THIS CLIENT WILL BE UPDATED TO 1.16 I PROMISE RN ITS 1.13 WITH OPTIFINE**
+
+
 A high-performance Minecraft 1.13 client built with optimized WebAssembly (WASM).
 
 ## Overview
