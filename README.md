@@ -1,6 +1,6 @@
 # Suger Cane Client
 
-A high-performance Minecraft 1.13 client built with optimized WebAssembly (WASM) technology.
+A high-performance Minecraft 1.13 client built with optimized WebAssembly (WASM).
 
 ## Overview
 
@@ -9,8 +9,8 @@ Suger Cane is a next-generation Minecraft client that improves upon the traditio
 ## Key Features
 
 ✨ **Performance-Optimized**
-- Utilizes advanced WebGL2 rendering with fallback to WebGL for broader compatibility
-- Intelligent device pixel ratio scaling (capped at 1.5x) to maintain high FPS on high-DPI displays
+- Utilizes WebGL2 rendering with fallback to WebGL for broader compatibility
+- good pixel ratio scaling (capped at 1.5x) to maintain high FPS hopefully.
 - Streamlined rendering pipeline that minimizes unnecessary GPU operations
 
 ⚡ **Efficient Rendering**
@@ -20,15 +20,9 @@ Suger Cane is a next-generation Minecraft client that improves upon the traditio
   - Power preference set to high-performance mode
   - Drawing buffer optimization for faster frame rates
 
-🎮 **Responsive Controls**
-- Server connection with real-time WebSocket (WSS) support
-- Frame-timing synchronized with `requestAnimationFrame` for buttery-smooth 60+ FPS
-- Real-time FPS monitoring for performance tracking
-
-🖥️ **Cross-Platform**
+🖥️ **Web based**
 - Runs in any modern web browser
 - Responsive canvas that adapts to window resizing
-- Mobile-friendly viewport settings for on-the-go gameplay
 
 ## Technical Highlights
 
@@ -44,16 +38,11 @@ This client implements several key optimizations:
 ## Getting Started
 
 1. Open the `Sugercane-client-V0.html` file in your browser
-2. Enter your server address (default: `wss://arch.mc`)
+2. Add a server like Arch.mc.
 3. Connect and start playing!
 
 ## Server Configuration
 
-To connect to a different server, modify the server input field in the client UI or update the default value in the HTML:
-
-```html
-<input id="server" type="text" value="wss://your-server.com" />
-```
 
 ## Development Status
 
