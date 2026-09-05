@@ -5,6 +5,13 @@
 - Go to Releases for downloads
 - A high-performance Minecraft 1.13 client built with optimized WebAssembly (WASM).
 
+## Builds
+
+| Version | Target | Size | Link |
+|---------|--------|------|------|
+| **--** | ------- | -- MB | [----](N/A) |
+| **U1** | WASM-GC | 51 MB | [play](https://suger-cane-client.wasmer.app/SSC-V1.html) |
+
 ## Overview
 
 Suger Cane is a next-generation Minecraft client that improves upon the traditional 1.13 WASM experience through careful optimization and performance enhancements. This client prioritizes **smooth gameplay** and **efficient resource usage** while maintaining full compatibility with 1.13 server features.
