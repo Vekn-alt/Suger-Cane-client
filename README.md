@@ -57,3 +57,7 @@ This client implements several key optimizations:
 ---
 
 **Built with performance in mind.** Suger Cane brings optimized 1.13 gameplay to the web.
+
+## Tools used during development
+- [Minifier](https://www.minifier.org/html-minifier)
+- EaglercraftX (No link)
